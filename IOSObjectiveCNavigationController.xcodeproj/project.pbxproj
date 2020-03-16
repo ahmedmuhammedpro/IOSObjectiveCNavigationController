@@ -14,6 +14,7 @@
 		C87022A0241F163F000405E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C870229F241F163F000405E0 /* Assets.xcassets */; };
 		C87022A3241F163F000405E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C87022A1241F163F000405E0 /* LaunchScreen.storyboard */; };
 		C87022A6241F163F000405E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C87022A5241F163F000405E0 /* main.m */; };
+		C87022AE241F186E000405E0 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C87022AD241F186E000405E0 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,9 @@
 		C87022A2241F163F000405E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C87022A4241F163F000405E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C87022A5241F163F000405E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C87022AC241F186E000405E0 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		C87022AD241F186E000405E0 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		C87022AF241F19C4000405E0 /* ClearTextProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClearTextProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,9 @@
 				C87022A1241F163F000405E0 /* LaunchScreen.storyboard */,
 				C87022A4241F163F000405E0 /* Info.plist */,
 				C87022A5241F163F000405E0 /* main.m */,
+				C87022AC241F186E000405E0 /* SecondViewController.h */,
+				C87022AD241F186E000405E0 /* SecondViewController.m */,
+				C87022AF241F19C4000405E0 /* ClearTextProtocol.h */,
 			);
 			path = IOSObjectiveCNavigationController;
 			sourceTree = "<group>";
@@ -146,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C87022AE241F186E000405E0 /* SecondViewController.m in Sources */,
 				C870229B241F1639000405E0 /* ViewController.m in Sources */,
 				C8702295241F1639000405E0 /* AppDelegate.m in Sources */,
 				C87022A6241F163F000405E0 /* main.m in Sources */,

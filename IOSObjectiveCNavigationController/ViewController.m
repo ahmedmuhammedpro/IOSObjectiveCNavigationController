@@ -1,11 +1,3 @@
-//
-//  ViewController.m
-//  IOSObjectiveCNavigationController
-//
-//  Created by ahmedpro on 3/16/20.
-//  Copyright © 2020 ahmedpro. All rights reserved.
-//
-
 #import "ViewController.h"
 
 @interface ViewController ()
@@ -16,8 +8,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
 }
 
+- (void)clearText {
+    [_textField setText: @""];
+}
 
+- (IBAction)goToNext:(UIButton *)sender {
+    SecondViewController *svc = [self.storyboard instantiateViewControllerWithIdentifier: @"secondView"];
+    svc.str = [_textField text];
+    svc.secondView = self;
+    [self.navigationController pushViewController: svc animated: YES];
+}
 @end

@@ -7,8 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SecondViewController.h"
+#import "ClearTextProtocol.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <ClearTextProtocol>
+
+@property (weak, nonatomic) IBOutlet UITextField *textField;
+
+- (IBAction)goToNext:(UIButton *)sender;
 
 
 @end
